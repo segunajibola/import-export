@@ -1,12 +1,13 @@
-import { Button, Navbar, Hero, About, Footer } from "../components"
+import { Button as RenamedButton, Navbar, About, Footer } from "../components"
+import RenamedHero from "../components/Hero"
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <RenamedHero />
       <About />
-      <Button />
+      <RenamedButton />
       <Footer />
     </div>
   );
